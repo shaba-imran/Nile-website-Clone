@@ -1,0 +1,242 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto 0;
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+}
+
+/* header */
+header {
+	background-color: #1e4da1;
+	padding: 0px 40px;
+	height: auto;
+	width: 100%;
+}
+
+.header {
+	float: right;
+	overflow: hidden;
+}
+
+.header-spacing {
+	padding: 10px;
+
+}
+
+/* logo and nav */
+.nav-bar {
+	clear: both;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+.main-nav {
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding: 0px 15px;
+}
+
+li a {
+	text-decoration: none;
+	color: #1e4da1;
+}
+
+.center-align {
+	display: flex;
+	align-items: center;
+}
+
+.fa-magnifying-glass {
+	color: #1e4da1;
+}
+
+/* slideshow */
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 1000px;*/
+  /*width: 100%;*/
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* apply and reg info */
+.apply-info {
+	height: 50%;
+	padding: 30px 0px;
+	font-size: 26px;
+	background-color: #1e4da1;
+	text-align: center;
+}
+
+.button {
+  background-color: #1e4da1;
+  border: 3px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 4px ;
+  cursor: pointer;
+}
+
+/* FLEX CONTAINER */
+.headlines {
+	background-color: white;
+	color: black;
+	padding: 30px 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*hr {
+	max-width: ;
+	width: 400px
+}*/
+
+.img-border {
+	border: 1px solid black;
+	padding: 7px;
+}
+
+.float-left {
+	float: left;
+	margin-right: 15px;
+}
+
+.banner {
+	clear: both;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+	font-size: 20px;
+}
+
+.banner-button-1 {
+	background-color: #3b5773;
+  border: 3px solid white;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.banner-button-2 {
+	background-color: #a67e95;
+  border: 3px solid white;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* footer */
+.footer-1 {
+	background-color: #555;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+
+.footer-2 {
+	background-color: #555;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 30px;
+}
+
+#myBtn {
+	/*display: none;*/
+	color: white;
+	background-color: #2d2f32;
+	padding: 25px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+#myBtn:hover {
+  background-color: #35383c;
+}
+
+.footer-3 {
+	background-color: #35383c;
+	padding: 15px 40px;
+	display: flex;
+	/*align-items: center;*/
+}
+
+.push-right {
+	margin-left: auto;
+}
+
+.icon-spacing {
+	padding: 0px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
