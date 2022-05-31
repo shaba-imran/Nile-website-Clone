@@ -1,3 +1,4 @@
+/ SLIDE SHOW / 
 let slideIndex = 0;
 showSlides();
 
@@ -23,9 +24,9 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 10000); // Change image every 10 seconds
 }
-// End of Slideshow
 
 
+/ SCROLL TO TOP BUTTON / 
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
