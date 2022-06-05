@@ -37,3 +37,24 @@ function topFunction() {
 }
 //End of Scroll To Top Function
 
+
+/ DROPDOWN NAV BAR /
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("open");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropdown-navbar')) {
+    var dropdowns = document.getElementsByTagName("nav");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('open')) {
+        openDropdown.classList.remove('open');
+      }
+    }
+  }
+} 

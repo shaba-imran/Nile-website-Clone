@@ -32,6 +32,10 @@ header {
 	background-color: white;
 }
 
+.dropdown-navbar {
+	/*display: none;*/
+}
+
 .nile-logo img {
 	width: 100%;
 	height: auto;
@@ -360,6 +364,47 @@ hr {
 		width: 49%;
 	}
 
+}
+
+
+@media screen and (max-width: 920px) {
+	.dropdown-navbar {
+		display: block;
+		width: 100%;
+		height: 40px;
+		background: url(images/dropdown-navbar.png) no-repeat 98% center;
+		background-color: #1e4da1;
+		background-size: 50px;
+		cursor: pointer;
+	}
+
+	nav {
+		overflow: hidden;
+		background: #5E80BE;
+		height: 0;
+	}
+
+	nav.open {
+		height: auto;
+	}
+
+	li a {
+		display: block;
+		text-align: center;
+		color: white;
+		border-bottom: 1px solid #3B62A8;
+		padding: 5px 0px;
+	}
+
+	.center-align-nav {
+		display: block;
+		text-align: center;
+	}
+
+	.fa-magnifying-glass {
+		color: white;
+	}
+	
 }
 
 
